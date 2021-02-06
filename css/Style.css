@@ -380,7 +380,7 @@ span {
 
 }
 
-#assignment .myAssignment h1 {
+#assignment .myAssignment h1{
     font-size: 2rem;
     color: white;
 
@@ -617,6 +617,82 @@ span {
 
 /*End Contact section*/
 
+/*Start skills section*/
+#skill {
+            width: 100%;
+            height: 80%;
+            position: relative;
+margin:0 auto;
+        }
+
+#skill  .shadow .skill-name {
+   flex-direction: column;
+   position:relative;
+   right:350px;
+
+        }
+
+#skill .shadow> nav {
+         width: 100%;
+         height: 100%;
+
+         position: relative;
+         bottom:360px;
+        left: 350px;
+      display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        overflow: hidden;
+        }
+
+#skill .shadow > nav > div {
+            width: 700px;
+            height: 40px;
+            background-color: #54b2a8;
+            position: relative;
+            right: 650px;
+
+        }
+
+#skill  .shadow> nav > div:nth-child(1) {
+            animation-name: java;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            margin-bottom:30px;
+        }
+
+#skill .shadow > nav > div:nth-child(2) {
+            animation-name: mysql;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+             margin-bottom:30px;
+             margin-top:2px;
+        }
+
+ #skill  .shadow > nav > div:nth-child(3) {
+            animation-name: javaScript;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+             margin-bottom:30px;
+        }
+
+ #skill .shadow > nav > div:nth-child(4) {
+            animation-name: ui;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+             margin-bottom:30px;
+        }
+
+#skill .shadow > nav > div:nth-child(5) {
+            animation-name: html;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+             margin-bottom:30px;
+        }
+
+
+/*end skills section*/
+
 /*main end*/
 
 /* Start footer*/
@@ -747,6 +823,8 @@ span {
 }
 
 
+
+
 /*start key frame*/
 @keyframes text_reveal_box {
     50% {
@@ -800,6 +878,53 @@ span {
     }
 }
 
+
+        @keyframes java {
+            from {
+                margin-left: 0px;
+            }
+            to {
+                margin-left: 490px;
+            }
+
+        }
+
+        @keyframes mysql {
+            from {
+                margin-left: 0px;
+            }
+            to {
+                margin-left: 420px;
+            }
+        }
+
+        @keyframes javaScript {
+            from {
+                margin-left: 0px;
+            }
+            to {
+                margin-left:400px;
+            }
+        }
+
+        @keyframes ui {
+            from {
+                margin-left: 0px;
+            }
+            to {
+                margin-left: 560px;
+            }
+        }
+
+        @keyframes html {
+            from {
+                margin-left: 0px;
+            }
+            to {
+                margin-left: 630px;
+            }
+        }
+
 /*end key frame*/
 
 /*start media query for tablet*/
@@ -843,5 +968,7 @@ span {
     }
 
 }
+
+
 
 /*end media query for tablet*/

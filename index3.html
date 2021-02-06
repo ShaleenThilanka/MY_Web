@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Water drop animation</title>
+    <link href="../Css/noml/normalize.css" rel="stylesheet">
+    <style>
+        div {
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            margin: auto;
+            right: 0;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            border-radius: 100%;
+            border: 3px solid blue;
+            animation: waterdrop 3s infinite;
+        }
+        @keyframes waterdrop {
+            0%{
+                width: 30px;
+                height: 30px;
+                border: 3px solid blue;
+            }
+            100%{
+                width: 300px;
+                height: 300px;
+                border: 3px solid blue;
+                opacity: 0;
+            }
+
+        }
+    </style>
+</head>
+<body>
+<div></div>
+
+</body>
+</html>
